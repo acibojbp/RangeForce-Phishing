@@ -109,7 +109,7 @@ Phishing scams are link-based manipulation, where the intention is to manipulate
 
 There are a few ways the attacker can incorporate malicious links into emails for their victims:
 
-- **Hiding URLs**: URLs can be hidden within the text. For example, instead of showing the actual URL, they can use clickable words, like "**[Unsubscribe](https://www.rangeforce.com/)"**, or "**Click [here](https://www.rangeforce.com/) to update your payment details**". This can also be used to hide malicious URLs that are typically misspelled — the attacker would insert the posing URL as the placeholder for the malicious URL so that everything looks legit. Once the user clicks on any of the above links, they will have been phished.
+- **Hiding URLs**: URLs can be hidden within the text. For example, instead of showing the actual URL, they can use clickable words, like **"[Unsubscribe]()"**, or **"Click [here]() to update your payment details"**. This can also be used to hide malicious URLs that are typically misspelled — the attacker would insert the posing URL as the placeholder for the malicious URL so that everything looks legit. Once the user clicks on any of the above links, they will have been phished.
     
 - **Links embedded in images**: Victims can be manipulated using images, where all it takes is one click of an image for the user's system to be infected. A file attachment on an email will always increase the risk of it being malicious. Something that is becoming increasingly common is an image disguised as a file attachment that points to a malicious URL. The following image is an example of how this looks:
 
