@@ -9,7 +9,7 @@ _All information presented in this repository is sourced from the respective cou
 
 ## Contents
 
-[Types of Phishing Emails and Techniques](/modules/module-1.md#types-of-phishing-emails-and-techniques)
+[Types of Phishing Emails and Techniques](/Modules/Module-1.md#types-of-phishing-emails-and-techniques)
 - [Examples of Phishing Emails](/modules/module-1.md#examples-of-phishing-emails)
 - [Phishing Techniques](/modules/module-1.md#phishing-techniques)
 - [Typical Phishing Process](/modules/module-1.md#typical-phishing-process)
