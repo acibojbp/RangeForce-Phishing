@@ -14,6 +14,9 @@ You have already been exposed to various phishing emails by now and should have 
 In this module, you will take on the role of Quidel Aiken, an Information Security Intern at Commensurate Technology, and learn how to treat, export, and analyze the URLs (Uniform Resource Locators) in your mailbox without causing any harm to your workstation.
 
 ## Contents
+- [Best Practices](#best-practices)
+- [URL Investigation](#url-investigation)
+- [URL Scanner](#url-scanner)
 
 ## Best Practices
 
