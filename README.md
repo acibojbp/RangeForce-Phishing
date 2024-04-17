@@ -26,3 +26,11 @@ _All information presented in this repository is sourced from the respective cou
 - [URL Investigation](/Modules/Module-3.md#url-investigation)
 - [URL Scanner](/Modules/Module-3.md#url-scanner)
 
+[Analyzing Email Contents - Attachments](/Modules/Module-4.md#analyzing-email-contents---attachments)
+- [Introduction](/Modules/Module-4.md#introduction)
+- [File Extraction](/Modules/Module-4.md#file-extraction)
+- [Static Analysis](/Modules/Module-4.md#static-analysis)
+- [Dynamic Analysis](/Modules/Module-4.md#dynamic-analysis)
+
+
+
