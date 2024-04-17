@@ -56,7 +56,7 @@ What is one of the IP addresses that the email was received from?
 Ans: **172.16.1.6**
 
 
-## MXToolbox
+## MXToolbox <a name="mxtoolbox"></a>
 
 As you may have noticed, it's not exactly easy to read the information displayed in email headers. Thankfully, there is a tool you can use to make the information more human-readable. [MXToolbox](https://mxtoolbox.com/), a provider of free blocklist, DNS, and email tools, is used by security professionals to monitor and analyze server systems. MXToolbox includes an **Email Header Analyzer** where you can upload headers and review the contents in a human-readable format. This provides useful diagnostic information such as hop delays, anti-spam results, and more.
 
@@ -108,7 +108,7 @@ You should also pay attention to **server-specific headers**, which are checking
 What is the Reply-To path in the URGENT Favor email?  
 Ans: `malicious.sender@supermaliciousdomain.com`
 
-## AbuseIPDB
+## AbuseIPDB <a name="abuseipdb"></a>
 
 Reading and understanding email headers is a necessary skill for email security. You can strengthen your security with free services, for example, by running suspicious attachments through VirusTotal's sandbox or utilizing open-source intelligence on malicious actors.
 
