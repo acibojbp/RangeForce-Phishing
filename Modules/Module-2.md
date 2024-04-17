@@ -18,7 +18,7 @@ Get ready to take on the role of Quidel Aiken, an Information Security Intern at
 - [MXToolbox](#mxtoolbox)
 - [AbuseIPDB](#abuseipdb)
 
-## Email Structure
+## Email Structure <a name="email-structure"></a>
 
 Everybody knows what emails are. If you work in a corporate environment, you probably send and receive hundreds of them daily. In fact, in 2020, there were over 300 billion emails sent per day worldwide. But are you aware of the components that make up an email?
 
