@@ -11,12 +11,12 @@ Upon completion of this module, learners will
 - Understand how phishing can be used as an attack vector, including what it can lead to and the impact of a successful phishing campaign on an organization.
 
 ## Contents
-[Examples of Phishing Emails](#examples-of-phishing-emails)  
-[Phishing Techniques](#phishing-techniques)  
-[Typical Phishing Process](#typical-phishing-process)  
-[Social Engineering](#social-engineering)  
-[Link Manipulation](#link-manipulation)  
-[Questions](#questions)  
+- [Examples of Phishing Emails](#examples-of-phishing-emails)  
+- [Phishing Techniques](#phishing-techniques)  
+- [Typical Phishing Process](#typical-phishing-process)  
+- [Social Engineering](#social-engineering)  
+- [Link Manipulation](#link-manipulation)  
+
 ## Examples of Phishing Emails
 
 **Phishing** is a **social engineering technique** that attempts to steal information from unsuspecting victims. Phishing attacks typically happen over email communication. A phishing attack aims to trick the email recipient into believing that the message is genuine, resulting in them clicking a malicious link or disclosing sensitive information. Phishing attacks are often successful because they mimic legitimate communications from trusted entities, such as fraudulent emails from a bank. According to [CISCO's 2021 Cybersecurity threat trends report](https://umbrella.cisco.com/info/2021-cyber-security-threat-trends-phishing-crypto-top-the-list), phishing is the primary attack vector seen in breaches in the last year and is responsible for 90% of all breaches.
@@ -134,7 +134,7 @@ Here are some tips that may be useful to help protect your organization against 
 - If you have any suspicions, do not open the link unless on a clean, isolated machine that has been set up for these purposes only.
 - Another typical spotter is the **From** and **Reply-To** or **Return-Path** headers not matching. An email may be spoofed to look like it's coming from a legitimate source, but when you inspect the headers, it will show the actual sender's email address.
 
-## Questions
+---
 
 A threat actor sends an email to the CEO of Comtech. Their goal is to manipulate the CEO into transferring a large sum of money to them. What type of phishing attack is this?  
 - Phishing  
