@@ -10,7 +10,16 @@ The learner will be able to
 - perform static analysis on email attachments.
 - perform dynamic analysis on email attachments.
 
-## Introduction
+## Contents
+- [Introduction](#introduction)
+- [File Extraction](#file-extraction)
+- [Static Analysis](#static-analysis)
+- [Dynamic Analysis](#dynamic-analysis)
+	- [VirusTotal](#virustotal)
+  	- [Hybrid Analysis](#hybrid-analysis)
+
+
+## Introduction <a name="introduction"></a>
 
 While you will encounter various types of files that have been sent as email attachments, the three most suspicious file types to look out for are:
 
@@ -37,7 +46,7 @@ A great example is the [Emotet](https://en.wikipedia.org/wiki/Emotet) malware ca
 
 These emails often contained Microsoft Word or Excel files with embedded macros. Once the unsuspecting user opened the attachment and enabled the macros, Emotet would be executed, infecting the user's system and potentially spreading to other systems on the network. This allowed the attackers to deliver additional payloads, such as ransomware or other banking trojans, to the infected systems. This highlights the importance of thoroughly analyzing files and not relying solely on their appearance or reputation to determine their safety.
 
-## File Extraction
+## File Extraction <a name="file-extraction"></a>
 
 Jaylee Beake, a Regional Sales Manager at ComTech, received an email from what appears to be the company's IT Support desk asking them to install a Chrome toolbar. Jaylee thinks this is suspicious and has reported it to the SOC for investigation.
 
@@ -61,7 +70,7 @@ Go to Outlook and open the email from Jaylee with the subject Suspicious Email. 
 What is the file type of the contents of the zipped `SalesBookmarks` attachment?  
 Ans: `.exe`
 
-## Static Analysis
+## Static Analysis <a name="static-analysis"></a>
 
 **Static analysis** refers to the process of analyzing a file without executing its code to identify any signs of malicious activity. This can involve examining a file's metadata, header information, and contents to determine if it contains any known malicious signatures, IP addresses, file hashes, or other markers associated with known security threats. The goal of this type of analysis is to quickly identify and isolate potentially malicious files to prevent any spread and minimize the risk of a security breach.
 
@@ -100,7 +109,7 @@ Ans: `4D 5A 50 00 02 00 00 00 04 00 0F 00 FF FF 00 00 B8 00 00 00 00 00 00 00 40
 What is the first-bytes-hex of the file?  
 Ans: `3495`  
 
-## Dynamic Analysis
+## Dynamic Analysis <a name="dynamic-analysis"></a>
 
 **Dynamic analysis** refers to the process of executing a file to observe its behavior and identify any signs of malicious activity. This can involve running the file in a sandboxed or isolated environment and monitoring its interactions with the system and network, including actions like **creating new processes, modifying system settings or files, sending network traffic**, and so on.
 
