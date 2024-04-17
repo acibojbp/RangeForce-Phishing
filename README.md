@@ -20,3 +20,9 @@ _All information presented in this repository is sourced from the respective cou
 - [Email Structure](/Modules/Module-2.md#email-structure)
 - [MXToolbox](/Modules/Module-2.md#mxtoolbox)
 - [AbuseIPDB](/Modules/Module-2.md#abuseipdb)
+
+[Analyzing Email Contents - URLs](/Modules/Module-3.md#analyzing-email-contents---urls)
+- [Best Practices](/Modules/Module-3.md#best-practices)
+- [URL Investigation](/Modules/Module-3.md#url-investigation)
+- [URL Scanner](/Modules/Module-3.md#url-scanner)
+
