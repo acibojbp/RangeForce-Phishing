@@ -10,8 +10,8 @@ _All information presented in this repository is sourced from the respective cou
 ## Contents
 
 [Types of Phishing Emails and Techniques](/Modules/Module-1.md#types-of-phishing-emails-and-techniques)
-- [Examples of Phishing Emails](/modules/module-1.md#examples-of-phishing-emails)
-- [Phishing Techniques](/modules/module-1.md#phishing-techniques)
-- [Typical Phishing Process](/modules/module-1.md#typical-phishing-process)
-- [Social Engineering](/modules/module-1.md#social-engineering)
-- [Link Manipulation](/modules/module-1.md#link-manipulation)
+- [Examples of Phishing Emails](/Modules/Module-1.md#examples-of-phishing-emails)
+- [Phishing Techniques](/Modules/Module-1.md#phishing-techniques)
+- [Typical Phishing Process](/Modules/Module-1.md#typical-phishing-process)
+- [Social Engineering](/Modules/Module-1.md#social-engineering)
+- [Link Manipulation](/Modules/Module-1.md#link-manipulation)
