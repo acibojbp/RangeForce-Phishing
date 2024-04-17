@@ -15,3 +15,8 @@ _All information presented in this repository is sourced from the respective cou
 - [Typical Phishing Process](/Modules/Module-1.md#typical-phishing-process)
 - [Social Engineering](/Modules/Module-1.md#social-engineering)
 - [Link Manipulation](/Modules/Module-1.md#link-manipulation)
+
+[Analyzing Email Headers](/Modules/Module-2.md#analyzing-email-headers)
+- [Email Structure](/Modules/Module-2.md#email-structure)
+- [MXToolbox](/Modules/Module-2.md#mxtoolbox)
+- [AbuseIPDB](/Modules/Module-2.md#abuseipdb)
