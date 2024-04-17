@@ -18,7 +18,7 @@ In this module, you will take on the role of Quidel Aiken, an Information Securi
 - [URL Investigation](#url-investigation)
 - [URL Scanner](#url-scanner)
 
-## Best Practices
+## Best Practices <a name="best-practices"></a>
 
 Despite Awareness and Cyber Hygiene training, people are still falling victim to phishing attacks. The question is, why?
 
@@ -51,7 +51,7 @@ It is safe to open any links as long as my anti-virus is enabled.
 Forward it to your colleague and ask to check the link.  
 
 
-## URL Investigation
+## URL Investigation <a name="url-investigation"></a>
 
 Julyan Beringer, a Finance Intern at Commensurate Technology, has just received an email from what appears to be the company's IT Support desk explaining that his password is about to expire. Is the email really from who it claims to be? Launch Outlook on the web and take a closer look.
 
@@ -86,7 +86,7 @@ Ans: `http://big-0cad8d00-ip-3843-4f68-9764-score-b243b4457d97.ru`
 What Content Transfer Encoding method is being used for the attachment? (Look under the body section of the headers.)  
 Ans: `base64`  
 
-## URL Scanner
+## URL Scanner <a name="url-scanner"></a>
 
 **urlscan.io** is an open-source intelligence (OSINT) tool used by security professionals to scan and analyze websites without the need to visit the site. When a URL is scanned by urlscan.io, an automated process will navigate to the URL just like a regular user and record the page navigation activity. This includes the domains and IP addresses contacted, the resources requested from those domains, e.g., JavaScript and CSS, and any additional information about the page itself. Additionally, urlscan.io will also take a screenshot of the page so you can see the contents/layout without putting yourself and your machine at risk.
 
