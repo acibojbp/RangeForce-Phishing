@@ -10,7 +10,14 @@ Learning outcomes
 
 This module will teach you the best practices for appropriately reporting and responding to phishing emails.
 
-Reporting Phishing Emails
+## Contents
+- [Reporting Phishing Emails](#reporting-phishing-emails)  
+- [Mitigations](#mitigations)  
+   - [Purging Phishing Emails](#purging-phishing-emails)  
+   - [Account Remediation](#account-remediation)  
+- [Crafting Phishing Rules](#crafting-phishing-rules)  
+
+## Reporting Phishing Emails <a name="reporting-phishing-emails"></a>
 
 According to **[Cisco's 2021 report](https://umbrella.cisco.com/info/2021-cyber-security-threat-trends-phishing-crypto-top-the-list)** on cybersecurity threat trends, phishing was the primary attack vector identified in breaches in 2021 and was responsible for 90% of all breaches. Phishing attacks continue to be one of the most common methods cybercriminals use to gain unauthorized access to sensitive data or compromise user accounts. As a result, all organizations and employees need to be vigilant and able to identify phishing emails when they appear in their inboxes.
 
@@ -34,7 +41,7 @@ Here are some guidelines for reporting a phishing email that the SOC should advi
 
 > **Note:** Reporting suspicious emails is the responsibility of every employee. Following these best practices can help your organization avoid potential security threats and protect sensitive data.
 
-## Mitigations
+## Mitigations <a name="mitigations"></a>
 
 Due to the astronomical number of emails (both legitimate and malicious) that are sent every day, it is almost impossible to block 100% of the phishing messages entering the network. However, if you can identify the messages that make it through in a timely manner and take appropriate action to mitigate them, you can certainly limit the impact.
 
@@ -49,7 +56,7 @@ Lorrie was one of several ComTech employees who received the email. Unfortunatel
 > **Note:** The response actions outlined in this module are not an exhaustive list. Depending on the specific circumstances of a phishing incident, additional response actions, such as malware containment and recovery procedures, may be necessary. Following your organization's **Incident Response** (**IR**) plan is important when responding to a security incident as every organization operates differently.
 
 
-### Purging Phishing Emails
+### Purging Phishing Emails <a name="purging-phishing-emails"></a>
 
 As a SOC analyst, you have investigated the mail audit logs and found that the email was sent to five ComTech employees. Only two of the five recipients have opened it — the user who reported it to you and Lorrie.
 
@@ -62,7 +69,7 @@ To purge the phishing email from inboxes, administrators can use a search tool, 
 **Note:** Microsoft provides detailed documentation on how to purge unwanted emails from user inboxes. You can find it **[here](https://learn.microsoft.com/en-us/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization?view=o365-worldwide)**.
 
 
-### Account Remediation
+### Account Remediation <a name="account-remediation"></a>
 
 Now that it's clear that only Lorrie's account may have been compromised, the next step would be to ensure that the account is remediated. The D3FEND technique **[Credential Eviction](https://d3fend.mitre.org/technique/d3f:CredentialEviction/)** is a defensive countermeasure that includes sub-techniques for disabling or removing compromised credentials from a computer network.
 
@@ -86,7 +93,7 @@ Once the compromised account has been identified, the attacker's access to the a
 
 **Note:** **[HaveIBeenPwned](https://haveibeenpwned.com/)** is a valuable tool that allows you to check if an email address has been involved in a data breach. The website, which is free to use, provides information on the breach and what type of data was compromised, allowing you to better understand the scope of the compromise and take additional steps to secure the account. It's a good idea to regularly check if any of your organization's accounts have been involved in a data breach.
 
-## Crafting Phishing Rules
+## Crafting Phishing Rules <a name="crafting-phishing-rules"></a>
 
 Once a phishing email has been purged from all recipients' inboxes and any compromised accounts have been restored, the next step would be to craft a rule that will help prevent similar emails from reaching end users in the future.
 
@@ -109,6 +116,7 @@ You could use the following components of the example email to craft detection r
 
 Using the elements of the phishing email header or body, you can craft effective phishing rules that will help prevent similar malicious emails from reaching end users. It's important to regularly review and update the phishing rules to ensure that they remain effective against the latest phishing tactics and technologies.
 
+--- 
 
 - Answer the questions.
   
