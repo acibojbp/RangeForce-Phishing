@@ -117,7 +117,7 @@ The goal of dynamic analysis is to identify malicious behavior that may not be i
 
 In the following steps, you will use online sandbox tools to perform dynamic analysis on the `SalesBookmarks.exe` file.
 
-### VirusTotal
+### VirusTotal <a name="virustotal"></a>
 
 ![Screenshot 2024-04-17 173040](https://github.com/acibojbp/RangeForce-Phishing/assets/164168280/66db8288-c304-422e-8b5f-d3daab62620f)
 
@@ -150,7 +150,7 @@ Ans: `http://download.everytoolbar.co.kr/setup/everytoolbar2_setup.exe`
 
 ![Screenshot 2024-04-17 173413](https://github.com/acibojbp/RangeForce-Phishing/assets/164168280/30979091-5948-47b8-9f77-0aa63e4d9414)
 
-### Hybrid Analysis
+### Hybrid Analysis <a name="hybrid-analysis"></a>
 
 ![Screenshot 2024-04-17 173703](https://github.com/acibojbp/RangeForce-Phishing/assets/164168280/6f410b8b-9478-475a-920e-c55ab28de2ea)
 
