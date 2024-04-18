@@ -19,7 +19,7 @@ Upon completion of this module, learners will be able to
    - [View the File in the Terminal](#view-the-file-in-the-terminal)
 - [Dynamic Analysis](#dynamic-analysis)
 
-## RTLO Character
+## RTLO Character <a name="rtlo-character"></a>
 
 The **Right-to-Left Override (RTLO)** character is a **Unicode** character that can be used to modify the direction of text within a string, especially when mixing left-to-right and right-to-left scripts. The character's Unicode number is **U+202E**. The legitimate purpose of the RTLO character is to **manage text direction and formatting when embedding right-to-left text within a primarily left-to-right text string or vice versa**, such as including an Arabic or Hebrew word in an English sentence. It is part of the Unicode character set and is used to override the default text direction, ensuring appropriate rendering for mixed-language text.
 
@@ -57,7 +57,7 @@ How would this filename be displayed to a user in a Windows OS? (with file exten
 Ans: `documentexe.pdf`  
 
 
-## Other Unicode Spoofing Methods
+## Other Unicode Spoofing Methods <a name="other-unicode-spoofing-methods"></a>
 
 Unicode is often leveraged to spoof URLs in phishing emails to make hyperlinks appear legitimate. You are likely aware that attackers use URLs similar to legitimate URLs to trick recipients into clicking them. At a glance, these URLs appear genuine, but after a closer look, you may notice a small difference.
 
@@ -118,7 +118,7 @@ Zero-width hyphen (U+2010)
 Zero-width linker (U+200F)  
 
 
-## Analyze the Suspicious Attachment
+## Analyze the Suspicious Attachment <a name="analyze-the-suspicious-attachment"></a>
 
 Glenda Backus, an HR Specialist at Commensurate Technology (ComTech), received an email from what appears to be an IT contractor requiring the review and approval of an infrastructure upgrade plan document. The email implies some urgency around reviewing the document as soon as possible. Glenda attempted to open the document and then reported the email to the SOC for investigation as the document did not open and now the files on her laptop are encrypted.
 
@@ -144,7 +144,8 @@ Go to Outlook Web Access and open the email from Glenda with the subject '**This
 After extracting the contents of the zipped folder, what does the file extension initially appear to be?
 Ans: `.pdf`
 
-## Static Analysis
+## Static Analysis <a name="static-analysis"></a>
+
 As you can see, the file appears to be a PDF document, however, this is not the case. The attacker has used the RTLO character to masquerade the filename to make it appear benign. The icon has also been changed to further disguise the file as a PDF file.
 
 Fortunately, there are several ways to identify suspicious anomalies in the attachment's filename...
@@ -183,7 +184,7 @@ Depending on the version of the OS, the RTLO character may appear as some unknow
 
 > Note: The malicious attachment is an executable (.exe) file. Exe is the same in reverse and is therefore difficult to obfuscate using the RTLO character. Other executable types such as .msi, .bat, .cmd, .vbs, and .ps1 are harder to spot when displayed in reverse.
 
-## Dynamic Analysis
+## Dynamic Analysis <a name="dynamic-analysis"></a>
 
 The file has previously been uploaded to and scanned by [Hybrid Analysis](https://www.hybrid-analysis.com/) to assess its reputation and behavior. You can access the scan results [here](https://www.hybrid-analysis.com/sample/86cc510835831f1fb61d3cfbcb24f301f36d8a182bfe48a0b50640e21ffce93b/6469fa8efd2d19f45200f951).
 
