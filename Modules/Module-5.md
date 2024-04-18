@@ -10,6 +10,15 @@ Upon completion of this module, learners will be able to
 - Identify RTLO spoofing using static and dynamic analysis.
 - Know how RTLO spoofing can be detected.
 
+## Contents
+- [RTLO Character](#rtlo-character)
+- [Other Unicode Spoofing Methods](#other-unicode-spoofing-methods)
+- [Analyze the Suspicious Attachment](#analyze-the-suspicious-attachment)
+- [Static Analysis](#static-analysis)
+   - [Rename the File in Explorer](#rename-the-file-in-explorer)
+   - [View the File in the Terminal](#view-the-file-in-the-terminal)
+- [Dynamic Analysis](#dynamic-analysis)
+
 ## RTLO Character
 
 The **Right-to-Left Override (RTLO)** character is a **Unicode** character that can be used to modify the direction of text within a string, especially when mixing left-to-right and right-to-left scripts. The character's Unicode number is **U+202E**. The legitimate purpose of the RTLO character is to **manage text direction and formatting when embedding right-to-left text within a primarily left-to-right text string or vice versa**, such as including an Arabic or Hebrew word in an English sentence. It is part of the Unicode character set and is used to override the default text direction, ensuring appropriate rendering for mixed-language text.
