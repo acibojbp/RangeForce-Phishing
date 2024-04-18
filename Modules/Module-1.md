@@ -17,7 +17,7 @@ Upon completion of this module, learners will
 - [Social Engineering](#social-engineering)  
 - [Link Manipulation](#link-manipulation)  
 
-## Examples of Phishing Emails
+## Examples of Phishing Emails <a name="examples-of-phishing-emails"></a>
 
 **Phishing** is a **social engineering technique** that attempts to steal information from unsuspecting victims. Phishing attacks typically happen over email communication. A phishing attack aims to trick the email recipient into believing that the message is genuine, resulting in them clicking a malicious link or disclosing sensitive information. Phishing attacks are often successful because they mimic legitimate communications from trusted entities, such as fraudulent emails from a bank. According to [CISCO's 2021 Cybersecurity threat trends report](https://umbrella.cisco.com/info/2021-cyber-security-threat-trends-phishing-crypto-top-the-list), phishing is the primary attack vector seen in breaches in the last year and is responsible for 90% of all breaches.
 
@@ -26,7 +26,7 @@ There are various types of phishing, two of the most common include:
 - **Spear phishing**: The attacker targets a specific type of individual or group, such as an organization's system administrator. The attacker knows precisely whom they are targeting and what they want from them.
 - **Whaling**: A more targeted attack where the attacker targets high-profile employees like the CEO, CFO, or any big players in an organization. The general goal of these attacks is to manipulate the victim into setting up high-value transfers to the attacker. The name whaling tends to compare the size of the attack in reference to a whale because typically, the victim is of high profile. A whaling attack is usually difficult to detect and prevent. However, the security team can help by keeping all staff well educated on security awareness.
 
-## Phishing Techniques
+## Phishing Techniques <a name="phishing-techniques"></a>
 
 There are a couple of phishing techniques that you should be aware of. The main tactics associated with phishing are **Reconnaissance** and **Initial Access**.
 
@@ -42,7 +42,7 @@ The idea is to lure the victim in; therefore, the attacker will imitate someone 
 
 An example of initial access that malicious actors have carried out is a threat group, **[APT28](https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden/)**, who used spearfishing to compromise the credentials of their victims.
 
-## Typical Phishing Process
+## Typical Phishing Process <a name="typical-phishing-process"></a>
 
 An example of a typical phishing attack is as follows:
 
@@ -72,7 +72,7 @@ An example of a typical phishing attack is as follows:
 - Escalate privileges.
 - Move laterally across the network.
 
-## Social Engineering
+## Social Engineering <a name="social-engineering"></a>
 
 **Social Engineering** refers to various malicious activities that an attacker can carry out where they manipulate victims into sharing personal or sensitive information. The process can be broken into several steps and is known as the **social engineering lifecycle**. This involves the attacker investigating the victim, finding a possible method of gaining entry, and identifying any security flaws in the system that would allow for the attack to occur. Once this information has been gathered, the threat actor will try to gain the victim's trust to enable them to break into the system. An example of this would be threat actors gaining passwords to grant themselves access to some critical resources.
 
@@ -102,8 +102,8 @@ The four stages of the social engineering lifecycle are as follows:
 - **Exit:** Interaction has ended, and the attacker leaves without any trace where possible by removing malware and covering tracks.
 
 A phishing attack that uses social engineering is solely based on human error rather than weak security. Therefore, it is slightly more challenging to determine how successful these attacks are as every human is different, and the attacker relies on the victim falling for their tackle.
-
-## Link Manipulation
+ 
+## Link Manipulation <a name="link-manipulation"></a>
 
 Phishing scams are link-based manipulation, where the intention is to manipulate the victim into clicking on a malicious link. The link is usually camouflaged in some way so that the victim assumes it is legitimate. User input is embedded into the path or domain of the URL, generally appearing in application responses. So, when the victim clicks on the URL, the response will modify the target of URLs.
 
