@@ -32,5 +32,14 @@ _All information presented in this repository is sourced from the respective cou
 - [Static Analysis](/Modules/Module-4.md#static-analysis)
 - [Dynamic Analysis](/Modules/Module-4.md#dynamic-analysis)
 
+[Understanding RTLO Spoofing](/Modules/Module-5.md#understanding-rtlo-spoofing)
+- [RTLO Character](/Modules/Module-5.md#rtlo-character)
+- [Other Unicode Spoofing Methods](/Modules/Module-5.md#other-unicode-spoofing-methods)
+- [Analyze the Suspicious Attachment](/Modules/Module-5.md#analyze-the-suspicious-attachment)
+- [Static Analysis](/Modules/Module-5.md#static-analysis)
+- [Dynamic Analysis](/Modules/Module-5.md#dynamic-analysis)
+
+
+
 
 
