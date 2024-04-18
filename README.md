@@ -31,12 +31,16 @@ _All information presented in this repository is sourced from the respective cou
 - [File Extraction](/Modules/Module-4.md#file-extraction)
 - [Static Analysis](/Modules/Module-4.md#static-analysis)
 - [Dynamic Analysis](/Modules/Module-4.md#dynamic-analysis)
+   - [VirusTotal](/Modules/Module-4.md#virustotal)
+  	- [Hybrid Analysis](/Modules/Module-4.md#hybrid-analysis)
 
 [Understanding RTLO Spoofing](/Modules/Module-5.md#understanding-rtlo-spoofing)
 - [RTLO Character](/Modules/Module-5.md#rtlo-character)
 - [Other Unicode Spoofing Methods](/Modules/Module-5.md#other-unicode-spoofing-methods)
 - [Analyze the Suspicious Attachment](/Modules/Module-5.md#analyze-the-suspicious-attachment)
 - [Static Analysis](/Modules/Module-5.md#static-analysis)
+   - [Rename the File in Explorer](/Modules/Module-5.md#rename-the-file-in-explorer)
+   - [View the File in the Terminal](/Modules/Module-5.md#view-the-file-in-the-terminal)
 - [Dynamic Analysis](/Modules/Module-5.md#dynamic-analysis)
 
 [Phishing Response Actions](/Modules/Module-6.md#phishing-response-actions)
