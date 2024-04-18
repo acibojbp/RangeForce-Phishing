@@ -150,7 +150,7 @@ As you can see, the file appears to be a PDF document, however, this is not the 
 
 Fortunately, there are several ways to identify suspicious anomalies in the attachment's filename...
 
-### Rename the File in Explorer
+### Rename the File in Explorer <a name="rename-the-file-in-explorer"></a>
 
 One approach to detecting a suspicious filename is by attempting to rename the file. Before you try to rename the file, you should enable file extensions.
 
@@ -167,7 +167,7 @@ When you rename a regular file, the filename will be highlighted and the file ex
 What is the actual file extension?
 Ans: `.exe`
 
-### View the File in the Terminal
+### View the File in the Terminal <a name="view-the-file-in-the-terminal"></a>
 
 Another way to identify a suspicious filename is to view the filename in the terminal (or command prompt).
 
