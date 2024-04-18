@@ -39,6 +39,14 @@ _All information presented in this repository is sourced from the respective cou
 - [Static Analysis](/Modules/Module-5.md#static-analysis)
 - [Dynamic Analysis](/Modules/Module-5.md#dynamic-analysis)
 
+[Phishing Response Actions](/Modules/Module-6.md#phishing-response-actions)
+- [Reporting Phishing Emails](/Modules/Module-6.md#reporting-phishing-emails)  
+- [Mitigations](/Modules/Module-6.md#mitigations)  
+   - [Purging Phishing Emails](/Modules/Module-6.md#purging-phishing-emails)  
+   - [Account Remediation](/Modules/Module-6.md#account-remediation)  
+- [Crafting Phishing Rules](/Modules/Module-6.md#crafting-phishing-rules)
+
+
 
 
 
